@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Source+Sans+3:wght@200;300&display=swap');
+html{
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+@media (min-width:768px){
+    html{
+        font-size: 16px;
+    }
+}
+body{
+    margin-bottom: 60px;
+}
+:root, [data-bs-theme=light] {
+   
+    /* Override variables*/
+    --bs-font-sans-serif: 'Source Sans 3', system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-gray-dark:#404040;
+    /* Page variables */
+    --font-family-serif: Merriweather, serif;
+    --color-text: var(--bs-gray-dark);
+    --font-family-text: var(--font-family-serif);
+}
+.family-sans{
+    font-family: var(--bs-font-sans-serif);
+}
+body{
+    font-family: var(--font-family-text);
+    color: var(--color-text);
+    font-weight: 200;
+}
+.layout-social .layout-icon{
+    font-size: 2em;
+}
+.site-header{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background: url(../images/bg3.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.site-header .layout-hero{
+    min-height: 40vh;
+}
+.site-header .page-section-title{
+    font-size: 2.5em;
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 200;
+}
+.site-header .page-section-text{
+    font-size: 1.2em;
+   
+}
+main{
+    position: relative;
+    top: 100px;
+    visibility: visible;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+.btn-submit{
+    float: right;
+}
+.content-fluid{
+    float: left;
+    top: 5;
+}
+button > a{
+    text-decoration: none;
+    color: white;
+}
+button > a:hover{
+    color: beige;
+    
+}
+.card .card-body  p{
+    font-size: 12px;
+}
+
+ 

@@ -1,0 +1,9 @@
+{
+    "name": "khyber/the_district",
+    "autoload": {
+        "psr-4": {
+            "Khyber\\TheDistrict\\": "src/"
+        }
+    },
+    "require": {}
+}
